@@ -62,6 +62,22 @@ const Overview = ({ orders, customer }: OverviewProps) => {
                 </>
               </Link>
             </li>
+
+            <li>
+              <Link
+                  href="/account/products"
+                  className="flex items-center justify-between py-4 border-b border-gray-200 px-8"
+              >
+                <>
+                  <div className="flex items-center gap-x-2">
+                    <MapPin size={16} />
+                    <span>Products</span>
+                  </div>
+                  <ChevronDown className="transform -rotate-90" />
+                </>
+              </Link>
+            </li>
+
           </ul>
         </div>
       </div>

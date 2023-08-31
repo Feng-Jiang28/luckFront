@@ -1,10 +1,10 @@
-import Index from "@modules/account/templates/product-table";
+import OverView from "@modules/account/templates/product-table";
 
 
 const ProductOverview = () => {
     return(
         <>
-            <Index/>
+            <OverView/>
         </>
     )
 }
